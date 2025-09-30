@@ -44,5 +44,14 @@ $field3->column = 'badge_no';
 $field3->columntype = 'VARCHAR(50)';
 $field3->typeofdata = 'V~O'; // Optional
 $module->addField($field3);
+$field3 = new Vtiger_Field();
+$field3->name = 'badge_no';
+$field3->label= 'Badge Number';
+$field3->uitype= 1; // Text
+$field3->column = 'badge_no';
+$field3->columntype = 'VARCHAR(50)';
+$field3->typeofdata = 'V~O'; // Optional
+$module->addField($field3);
+
 
 echo "Fields added successfully!";
