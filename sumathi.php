@@ -1,6 +1,6 @@
 <?php
 // user_profile.php
-$username = "John";
+$username = "Joh";
 $email = "john@example.com";
 echo "Welcome " . $usernames;
 ?>
