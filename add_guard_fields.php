@@ -38,7 +38,7 @@ $module->addField($field2);
 // ===== 3. Badge Number Text =====
 $field3 = new Vtiger_Field();
 $field3->name = 'badge_no';
-$field3->label= 'Badge Numb';
+$field3->label= 'Badge Number1';
 $field3->uitype= 1; // Text
 $field3->column = 'badge_no';
 $field3->columntype = 'VARCHAR(50)';
